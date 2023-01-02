@@ -1,4 +1,4 @@
-const express = require('express');
+import  express  from "express";
 const { Request , Response, NextFunction } = express;
 const app = express();
 app.use(express.json());
